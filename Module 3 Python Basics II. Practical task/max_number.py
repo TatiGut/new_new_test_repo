@@ -3,7 +3,7 @@ def maxN(a,b,c):
 	A = a + b + c 
 	B = a + c + b
 	C = b + c + b
-	D = b + b + c
+	D = b + a + c
 	E = c + b + a 
 	F = c + a + b
 	MAX = [A,B,C,D,E,F]
